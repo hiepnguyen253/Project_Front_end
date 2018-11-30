@@ -1,0 +1,238 @@
+
+.contruction{
+	text-align: center;
+	margin-top: 100px;
+}
+hr{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.ctt-1{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.bg-light{
+	background-color: white!important;
+}
+
+.about{
+	background: #E6E6E6;
+}
+img{
+	width: 100%;
+}
+.cour{
+	background-image: url(../img/images/copy.png);
+	height: 300px;
+	background-repeat: repeat;
+	text-align: center;
+	
+}
+.cour>div>span{
+	font-size: 66px;
+	color: #FF8000;
+}
+.quynh{
+	width:10%;
+	border: 3px #FF8000 solid !important;
+	border-radius: 3px;
+}
+.cour>div>p{
+	color: white;
+}
+
+.item{
+	text-align: center;
+}
+.bg{
+	position: relative;
+}
+
+.logo-center{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	left: 29%; 
+	text-align: center;
+}
+.logo-center h1 {
+	color: white;
+}
+.button-scroll {
+	width: 10%;
+	margin:0 auto;
+}
+.bg-2{
+	
+}
+.bg-2>a>span{
+	color: white;
+	text-decoration: none;
+}
+.bg-2>button{
+	margin-right: 20px;
+}
+.bg-3{
+	text-align: center;
+	position: absolute;
+}
+.bg-3 .bg-4{
+	top:566px;
+	left:662px;
+}
+.simplefilter li {
+    color: grey;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+.simplefilter li.active {
+    background-color: #FF8000;
+    color: white;
+}
+.item-desc {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    display: none;
+}
+.filtr-item:hover .item-desc{
+	display: block;
+}
+.filtr-item{
+	padding: 0px;
+}
+.icon{
+	text-align: center;
+	margin-top: 50px;
+}
+.icon1{
+	font-size: 60px;
+}
+.btn1{
+	padding: 50px;
+}
+.man{
+	/*padding-top: 200px;*/
+	display: inline-block;
+}
+.btn2{
+	border-radius: 50%;
+}
+.man>button>i{
+	font-size: 30px;
+}
+.man>button{
+	padding: 20px;
+	margin: 50px;
+}
+.man>span>b:hover{
+	color: #FFBF00;
+}
+.say>img{
+	width: 150px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 310px;
+	left: 93px;
+	border: 1px solid grey
+}
+.say{
+	background-color: gainsboro;
+	position: relative;
+	margin-left: 37px;
+}
+.say>p{
+	margin-top: 100px;
+	text-align: center;
+}
+.choose{
+	background-color: white;
+}
+.card-body{
+	background-color: gainsboro;
+}
+.choose:hover{
+	background-color: #FFBF00;
+}
+.mb-0>span{
+	margin-left: 150px;
+}
+.content-1{
+	width: 100%;
+	height: 40px;
+	background-color: #F2F2F2
+
+}
+.error{
+	color: red;
+}
+.mess{
+	width: 100%;
+	height: 366px;
+	background-color: #F2F2F2
+}
+.input{
+	margin-left: 37px;
+}
+.item1>i{
+	font-size: 66px;
+}
+.item1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.fooster>i{
+	font-size: 50px;
+}
+.fooster{
+	border-radius: 50%;
+}
+.cour1{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+@media (max-width: 992px){
+	* {
+		font-size: 16px;
+	}
+	.button11{
+		margin-bottom: 30px;
+	}
+	.logo-center .bg-2 h1 {
+		font-size: 2em;
+	}
+
+}
+@media (max-width: 640px){
+	*{
+		font-size: 13px;
+	}
+	.check11{
+			display: none;
+		}
+	}
+}
+@media (min-width: 0px){
+	*{
+		font-size: 9px;
+	}
+	.logo-center .bg-2 h1 {
+		font-size: 2em;
+	}
+	.check11{
+			display: none;
+		}
+	}
+}
+
+
